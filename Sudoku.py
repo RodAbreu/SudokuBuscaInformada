@@ -3,10 +3,11 @@ from Tabuleiro import Tabuleiro
 
 def main():
     x = Tabuleiro()
-    print(x.permiteColuna(2,3))
-    print(x.permiteLinha(0,8))
-    print(x.permiteQuadrante(4,5,4))
-    print(x.printaMatriz())
+    # print(x.printaMatriz())
+
+    # print(x.permiteGeral(1, 0, 6))
+
+    x.resolveQuadrante()
     pass
 
 if __name__ == '__main__':
